@@ -1,0 +1,12 @@
+# MQ config
+EXCHANGE: asynt_exchange
+MQ: "http://192.168.31.240:15672/"
+PREFETCH_COUNT: 1
+
+# redis
+REDIS_URL: redis://localhost:6379/0
+
+# Log config
+LOG_PATH: /tmp/crawlers-enterprise-data/log
+LOG_LEVEL: INFO
+
